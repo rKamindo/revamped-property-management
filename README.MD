@@ -7,8 +7,10 @@ This is the repository for the Property Management System.
 
 # Getting Started
 You will need the following technologies and applications to be able to set up your local development environment:
-* IntelliJ: https://www.jetbrains.com/idea/
+* IDE: IntelliJ: https://www.jetbrains.com/idea/
   * Get the educational license here for free as a college student: https://www.jetbrains.com/community/education/#students
+* Database: PostgreSQL: https://www.postgresql.org/download/
+  * PGAdmin: https://www.pgadmin.org/ - a management tool for PostgreSQL
 
 # Resources
 
