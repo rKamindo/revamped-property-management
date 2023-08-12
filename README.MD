@@ -11,8 +11,8 @@ You will need the following technologies and applications to be able to set up y
   * Get the educational license here for free as a college student: https://www.jetbrains.com/community/education/#students
 
 # Resources
-- Here are some that I think will equip you for this project and for your career:
 
+Here are some that I think will equip you for this project and for your career:
 https://hyperskill.org/tracks
 
 * Java Backend Developer:
