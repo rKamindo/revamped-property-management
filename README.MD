@@ -11,6 +11,7 @@ You will need the following technologies and applications to be able to set up y
   * Get the educational license here for free as a college student: https://www.jetbrains.com/community/education/#students
 * Database: PostgreSQL: https://www.postgresql.org/download/
   * PGAdmin: https://www.pgadmin.org/ - a management tool for PostgreSQL
+* Git: https://git-scm.com/downloads
 
 # Resources
 
