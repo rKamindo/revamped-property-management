@@ -31,6 +31,8 @@ https://roadmap.sh/
 * Backend Roadmap: https://roadmap.sh/backend
 
 * Software Design & Architecture: https://roadmap.sh/software-design-architecture
+
+* Best Practices: https://roadmap.sh/best-practices/api-security
 * Event Storming: https://lucidspark.com/blog/8-steps-in-the-event-storming-process
 * Domain Driven Design (DDD): https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f
 * CQRS: https://www.baeldung.com/cqrs-event-sourcing-java
