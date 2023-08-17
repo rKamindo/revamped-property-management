@@ -13,10 +13,6 @@ spring:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: DEBUG
-        type: TRACE
+axon:
+  axonserver:
+    enabled: false
