@@ -1,4 +1,4 @@
-package com.kamindo.propertymanagement.property;
+package com.kamindo.propertymanagement;
 
 public enum PropertyType {
     SINGLE_UNIT,
