@@ -1,4 +1,4 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -21,6 +21,8 @@ public class Property {
     private Address address;
     @Enumerated(EnumType.STRING)
     private PropertyType propertyType;
+    @Enumerated(EnumType.STRING)
+    private PropertyStatus propertyStatus;
     @OneToMany(mappedBy = "property", cascade = CascadeType.ALL)
     private List<Unit> units;
 
@@ -35,5 +37,9 @@ public class Property {
 
         units.add(unit);
         unit.setProperty(this);
+    }
+
+    public void moveInTenant(Tenant tenant, Unit propertyUnit) {
+        propertyUnit.addTenant(tenant);
     }
 }

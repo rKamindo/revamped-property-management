@@ -1,5 +1,6 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.command;
 
+import com.kamindo.propertymanagement.model.UnitType;
 import lombok.Data;
 
 @Data

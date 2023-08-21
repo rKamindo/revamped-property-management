@@ -1,5 +1,7 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.command;
 
+import com.kamindo.propertymanagement.model.Address;
+import com.kamindo.propertymanagement.model.PropertyType;
 import lombok.Data;
 
 import java.util.List;
