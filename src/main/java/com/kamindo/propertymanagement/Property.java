@@ -66,7 +66,10 @@ public class Property {
 
     @EventHandler
     public void on(PropertyCreatedEvent event) {
-        BeanUtils.copyProperties(event, this);
+        this.id = event.getId();
+        this.name = event.getName();
+        this.address = event.getAddress();
+        this.propertyType = event.getPropertyType();
     }
 
     @EventHandler
