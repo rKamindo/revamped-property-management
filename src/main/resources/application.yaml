@@ -18,4 +18,4 @@ axon:
     enabled: false
 logging:
   level:
-    sql: info
+    sql: debug

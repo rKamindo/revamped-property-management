@@ -12,8 +12,8 @@ import org.springframework.transaction.PlatformTransactionManager;
 @Configuration
 public class AxonConfig {
     @Bean
-    public CommandBus commandBus(PlatformTransactionManager platformTransactionManager) {
-        return SimpleCommandBus.builder().transactionManager(new SpringTransactionManager(platformTransactionManager)).build();
+    public CommandBus commandBus(PlatformTransactionManager transactionManager) {
+        return SimpleCommandBus.builder().transactionManager(new SpringTransactionManager(transactionManager)).build();
     }
 
     @Bean
