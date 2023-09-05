@@ -24,11 +24,13 @@ dependencies {
     implementation("org.axonframework:axon-spring-boot-starter:4.8.1")
     implementation("org.axonframework:axon-bom:4.8.1")
     implementation("org.projectlombok:lombok:1.18.26")
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.4")
     annotationProcessor("org.projectlombok:lombok:1.18.26")
     runtimeOnly("org.postgresql:postgresql")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.security:spring-security-test")
     implementation(kotlin("stdlib-jdk8"))
+
 }
 
 tasks.withType<Test> {
