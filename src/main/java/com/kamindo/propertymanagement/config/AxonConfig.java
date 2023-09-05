@@ -1,4 +1,4 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.config;
 
 import org.axonframework.commandhandling.CommandBus;
 import org.axonframework.commandhandling.SimpleCommandBus;
