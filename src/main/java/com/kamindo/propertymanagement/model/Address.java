@@ -1,8 +1,11 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.model;
 import jakarta.persistence.Embeddable;
 import lombok.*;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Embeddable
 public class Address {
     private String street;
