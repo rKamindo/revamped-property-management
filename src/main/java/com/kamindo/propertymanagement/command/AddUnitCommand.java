@@ -1,11 +1,15 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.command;
 
+import com.kamindo.propertymanagement.model.UnitType;
+import lombok.Builder;
 import lombok.Data;
-import lombok.Value;
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 @Data
+@Builder
 public class AddUnitCommand {
     private String id;
+    @TargetAggregateIdentifier
 
     private String propertyId;
     private String unitNumber;
