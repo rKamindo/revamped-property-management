@@ -1,5 +1,6 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.event;
 
+import com.kamindo.propertymanagement.model.UnitType;
 import lombok.*;
 
 @Value

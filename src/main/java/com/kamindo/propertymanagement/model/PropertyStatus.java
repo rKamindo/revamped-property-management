@@ -1,4 +1,4 @@
-package com.kamindo.propertymanagement;
+package com.kamindo.propertymanagement.model;
 
 public enum PropertyStatus {
     ACTIVE,
