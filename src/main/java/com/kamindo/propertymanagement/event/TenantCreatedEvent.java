@@ -14,6 +14,5 @@ public class TenantCreatedEvent {
     private LocalDate dateOfBirth;
     private Address address;
     private String email;
-
     private String phone;
 }
