@@ -35,7 +35,6 @@ public class Tenant {
     @Embedded
     private Address address;
     private String email;
-
     private String phone;
 
 
